@@ -24,7 +24,7 @@ def get_coordinates(query):
 
 
 #Will be used to launch a web browser and view the output
-filepath = 'file:///c:/python27/waterindia.html'
+filepath = 'file:///waterindia.html'
 htmlCoords=""
 with open('water.csv', 'rb') as csvfile:
     spamreader = csv.reader(csvfile)
